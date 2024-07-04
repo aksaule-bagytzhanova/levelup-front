@@ -1,0 +1,117 @@
+.container {
+  padding: 50px;
+  background-color: #001f12; /* цвет фона */
+  color: #C1F130; /* основной цвет текста */
+}
+
+.logo {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 48px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 64px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.sectionNumber {
+  font-size: 48px;
+  font-family: 'Orbitron', sans-serif;
+  margin-right: 20px;
+}
+
+.sectionContent {
+  flex: 1;
+}
+
+.input, .textarea, .select {
+  padding: 10px;
+  border: 2px solid #C1F130;
+  border-radius: 8px; /* Увеличена радиус скругления */
+  background-color: transparent;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="C1F130" class="bi bi-caret-down-fill" viewBox="0 0 16 16"><path d="M7.247 11.14 2.451 5.658A.5.5 0 0 1 2.905 5h10.19a.5.5 0 0 1 .453.658l-4.796 5.482a.5.5 0 0 1-.78 0z"/></svg>') no-repeat right 10px center;
+  background-size: 16px 16px;
+}
+
+.button {
+  padding: 10px 20px;
+  border: 2px solid #C1F130; /* измененный цвет */
+  border-radius: 8px; /* Увеличена радиус скругления */
+  background-color: transparent;
+  color: #C1F130; /* измененный цвет */
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+  background-color: #C1F130; /* измененный цвет при наведении */
+  color: #000; /* цвет текста при наведении */
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 10px;
+}
+
+.optionButton {
+  padding: 10px 20px;
+  border: 2px solid #C1F130;
+  border-radius: 8px; /* Увеличена радиус скругления */
+  background-color: transparent;
+  color: #C1F130;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.optionButton.active {
+  background-color: #C1F130;
+  color: #000;
+}
+
+.optionButton:hover {
+  background-color: #C1F130;
+  color: #000;
+}
+
+.imageContainer {
+  flex: 1;
+  text-align: center;
+}
+
+.imageContainer img {
+  max-width: 100%;
+  height: auto;
+}
+
+.fitnessModel {
+  margin-top: 10px;
+}
