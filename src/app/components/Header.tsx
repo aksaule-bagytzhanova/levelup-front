@@ -32,7 +32,7 @@ const Header = () => {
       <nav>
         <ul className={styles.navList}>
           <li>
-            <Link href="/app/faq" passHref legacyBehavior>
+            <Link href="/faq" passHref legacyBehavior>
               <a>FAQ</a>
             </Link>
           </li>
